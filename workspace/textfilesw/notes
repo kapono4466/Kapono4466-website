@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Border </title>
+	<style>
+  h1{
+     border:3px dotted black;
+}
+			 tr,td{
+              border:  solid 1px #808080;
+            }
+			div {
+              border: 2px solid black;
+              border-top: 4px dashed #D3D3D3;
+            }
+		</style>
+	</head>
+	<body>
+		<table>
+			<caption> My Table </caption>
+			<tr> <td>Data</td><td>Data</td></tr>
+		</table>
+            
+        <div> 
+              <h1> Borders are Awesome </h1>
+              <p> Paragraph explaining how cool borders are. </p>
+        </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<font size="1"> Font size 1 </font>
+<font size="2"> Font size 2 </font>
+<font size="4"> Font size 4 </font>
+<font size="5"> Font size 5 </font><br>
+<font size="6"> Font size 6 </font>
+<font size="7"> Font size 7 </font>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Border </title>
+		<style>
+			td,th,tr {
+             border: 2px;
+             border-style: solid;
+             border-color: gray;
+            }
+
+			h1 {
+              border: 1px dotted black;
+            }
+		</style>
+	</head>
+	<body>
+        <h1> Cool Borders </h1>
+		<table>
+			<caption> My Table </caption>
+			<tr> <th>Day1</th><th>Day2</th></tr>
+			<tr> <td>Data</td><td>Data</td></tr>
+		</table>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Border </title>
+		<style>
+			table {
+             border: 1px dashed gray;
+            }
+
+			.section {
+              border: 2px solid black;
+            }
+			.footer {
+              border: 1px dotted blue;
+            }
+		</style>
+	</head>
+	<body>
+		<table>
+			<caption> My Table </caption>
+			<tr> <th>Day1</th><th>Day2</th></tr>
+			<tr> <td>Data</td><td>Data</td></tr>
+		</table>
+        <div class="section">
+          <p> This section is all about borders </p>
+        </div>
+        <div class="footer">
+          <p> Thank you! </p>
+        </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Padding </title>
+		<style>
+			caption {
+				padding: 10px 12px 14px 16px;
+            }
+            th,td {
+                padding: 10px;
+            }
+		</style>
+	</head>
+	<body>
+		<table>
+			<caption> My Table </caption>
+			<tr> <th>Day1</th><th>Day2</th></tr>
+			<tr> <td>Data</td><td>Data</td></tr>
+		</table>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Padding </title>
+		<style>
+			caption {
+				padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+            th, td {
+                padding: 10px 0px 5px 8px;
+            }
+		</style>
+	</head>
+	<body>
+		<table>
+			<caption> My Table </caption>
+			<tr> <th>Day1</th><th>Day2</th></tr>
+			<tr> <td>Data</td><td>Data</td></tr>
+		</table>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Padding </title>
+		<style>
+			.section {
+				padding: 12px 25%;
+            }
+            .footer {
+                padding-top: 5px;
+                padding-bottom: 10px;
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+		</style>
+	</head>
+	<body>
+  		<div class="section">
+          <table>
+              <caption> My Table </caption>
+              <tr> <th>Day1</th><th>Day2</th></tr>
+              <tr> <td>Data</td><td>Data</td></tr>
+          </table>
+        </div>
+        <div class="section">
+          <p> My Content is squeezed towards the middle. </p>
+        </div>
+        <div class="footer">
+          <p> I am a footer at the bottom of a webpage! </p>
+        </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Margin </title>
+		<style>
+			h1 {
+				margin-Top: 10px;
+				margin-Left: 15px;
+            }
+            div {
+                margin-Top: 5px;
+                margin-Bottom: 10px;
+            }
+		</style>
+	</head>
+	<body>
+          <div> 
+          	<h1> Margin is Awesome </h1>
+          </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- -->
