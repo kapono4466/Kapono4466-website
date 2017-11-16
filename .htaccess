@@ -1,3 +1,3 @@
 RewriteEngine On
-RewriteCond %{Main_page.html} !-f
+RewriteCond %{Main_page} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
