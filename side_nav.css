@@ -96,3 +96,54 @@
 .slider-wrapper > .slide:first-child {
 	opacity: 1;
 }
+.sidenav {
+    left:0;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: -20;
+    background-color: #000;
+    overflow-x: hidden;
+    transition: 5s;
+   
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #4B5320;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: white;
+ font-weight: 900;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+		p {
+			color: green;
+		}
+		
+		div {
+			color: #FF6600;
+			
+		}
+		body{
+			text-align: center;
+		}
